@@ -2,7 +2,7 @@
 Discord bot which adds a new member to a specified role within the server.
 
 ***Note: This bot requires a hosting machine in order to fulfill its
-duties.
+duties.***
 
 ***It will NOT appear online immeditately when added to a server!***
 
