@@ -1,6 +1,8 @@
 # New-member-bot
 Discord bot which adds a new member to a specified role within the server.
 
+## Add to Server
+
 Click this link to add New-member-bot to your server:
 https://discordapp.com/api/oauth2/authorize?client_id=695025002512384000&permissions=268511248&scope=bot
 
