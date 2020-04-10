@@ -68,3 +68,4 @@ To start the bot:
 - Open the command prompt/terminal to the location your folder is located
 - Enter `npm i` to install the latest Discord API packages
 - Fianlly enter `node bot.js` and a console message should appear stating the bot is online and connected
+- Check your Discord server to make sure the bot appears online in the member section
