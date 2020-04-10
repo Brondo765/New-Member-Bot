@@ -23,7 +23,7 @@ https://discordapp.com/api/oauth2/authorize?client_id=695025002512384000&permiss
 ## Installation:
 In a command/terminal prompt (from an empty folder where you want your installation) run the following:
 
-`git clone` https://github.com/Brondo765/New-member-bot/
+`git clone` https://github.com/Brondo765/New-member-bot/.git
 
 Once finished:
 
