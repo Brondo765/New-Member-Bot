@@ -19,7 +19,6 @@ https://discordapp.com/api/oauth2/authorize?client_id=695025002512384000&permiss
 
 ***Note: The person adding the bot needs “Manage Server” permissions to do so.***
 
-# Step 2:
 ## Installation:
 In a command/terminal prompt (from an empty folder where you want your installation) run the following:
 
@@ -30,7 +29,7 @@ Once finished:
 - Locate the `config-example.json` file
 - Rename `config-example.json` to `config.json`
 
-# Step 3:
+# Step 2:
 ## Enable Developer Mode:
 Setting up the configuration file is an important step for the bot 
 to run online with your specific server/channels/roles.
@@ -49,7 +48,6 @@ Copy these to a notepad or within the config.json file you renamed.
 
 ***Copy your Role ID: right-click the server -> Server Settings -> Roles -> right-click on the role -> select Copy ID.***
 
-# Step 4:
 ## Get your Token:
 In order to get the bot online, you need to create your own application under your
 Discord account and retrieve your token and specific server settings.
@@ -61,7 +59,7 @@ Head over to https://discordapp.com/developers.
 - Now head to *Bot -> Token -> Click to Reveal Token*
 - Copy and paste this token into the config.json file marked "yourClientToken"
 
-# Step 5:
+# Step 3:
 ## Start-up:
 To start the bot: 
 - Open the command prompt/terminal to the location your folder is located
