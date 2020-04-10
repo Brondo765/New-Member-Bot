@@ -10,6 +10,8 @@ duties.***
 - Discord server and Admin permissions
 - `Node.js` on valid machine with (Windows/Linux/MacOS) installed
 
+
+
 # Step 1:
 ## Add Bot to Server
 
@@ -17,6 +19,8 @@ Click this link to add New-member-bot to your server:
 https://discordapp.com/api/oauth2/authorize?client_id=695025002512384000&permissions=268511248&scope=bot
 
 ***Note: The person adding the bot needs “Manage Server” permissions to do so.***
+
+
 
 # Step 2:
 ## Installation
