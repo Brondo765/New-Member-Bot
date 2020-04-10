@@ -64,4 +64,5 @@ Head over to https://discordapp.com/developers.
 ## Start-up:
 To start the bot: 
 - Open the command prompt/terminal to the location your folder is located
-- Type `node bot.js` and a console message should appear stating the bot is online and connected
+- Enter `npm i` to install the latest Discord API packages
+- Fianlly enter `node bot.js` and a console message should appear stating the bot is online and connected
