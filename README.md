@@ -1,7 +1,9 @@
 # New-member-bot
 Discord bot which adds a new member to a specified role within the server.
 
-- config-example.json requires specific user data
+## Requirements
+- config-example.json changed to fit server/channel/role settings
+- 'Node.js' installed 
 
 ## Installation
 In a command prompt in your projects folder (wherever that may be) run the following:
