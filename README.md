@@ -3,7 +3,7 @@ Discord bot which adds a new member to a specified role within the server.
 
 - config-example.json requires specific user data
 
-##Installation
+## Installation
 In a command prompt in your projects folder (wherever that may be) run the following:
 
 git clone https://github.com/Brondo765/New-member-bot.git
