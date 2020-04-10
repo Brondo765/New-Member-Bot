@@ -27,4 +27,4 @@ Once finished:
 ## Start-up
 To start the bot:
 - Make sure you have ran `Node` from your command/terminal prompt 
-- Once in `Node` type `node .` and a console message should appear
+- Once in `Node` type `node bot.js` and a console message should appear
