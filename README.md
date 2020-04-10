@@ -2,7 +2,7 @@
 Discord bot which adds a new member to a specified role within the server.
 
 ## Warning
-***Note: This bot requires a machine connected to the internet in order to fulfill its
+***This bot requires a machine connected to the internet in order to fulfill its
 duties.***
 
 ***It will NOT appear online immeditately when added to a server!***
