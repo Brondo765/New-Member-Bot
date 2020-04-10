@@ -1,0 +1,12 @@
+{
+    "token" : "yourClientToken",
+    "roleID" : "yourRoleID",
+    "channelID" : "yourChannelID",
+    "serverID" : "yourServerID",
+    "rules" : [
+    "\nRules:",
+    "\n- first line",
+    "\n- second line",
+    "\n- third line etc..."
+    ]
+}
