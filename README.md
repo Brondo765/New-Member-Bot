@@ -41,13 +41,13 @@ To enable developer mode for your Discord account on the Discord app:
 
 This allows you to copy your Server ID, Role IDs, and Channel IDs for the servers you manage.
 
-Copy these to a notepad or within the config.json file that match the value names.
-
 **Copy your Server ID: right-click on the server bubble -> select Copy ID.**
 
 **Copy your Channel ID: right-click on the channel -> select copy ID.**
 
 **Copy your Role ID: right-click the server -> Server Settings -> Roles -> right-click on the role -> select Copy ID.**
+
+Add this to the config.json file that match the value names.
 
 ## Get your Token:
 In order to get the bot online, you need to create your own application under your
