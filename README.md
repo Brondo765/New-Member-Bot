@@ -3,7 +3,7 @@ Discord bot which adds a new member to a specified role within the server.
 
 ## Requirements
 - Discord server and Admin permissions
-- `Node.js` on valid machine with (Windows/Linux/MacOS) installed
+-`Node.js` on valid machine with (Windows/Linux/MacOS) installed
 
 ## Installation
 In a command prompt in your projects folder (wherever that may be) run the following:
