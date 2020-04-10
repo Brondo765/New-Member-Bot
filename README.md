@@ -1,17 +1,16 @@
 # New-member-bot
 Discord bot which adds a new member to a specified role within the server.
 
+## Requirements
+- Discord server and Admin permissions
+- `Node.js` on valid machine with (Windows/Linux/MacOS) installed
+
 ## Add to Server
 
 Click this link to add New-member-bot to your server:
 https://discordapp.com/api/oauth2/authorize?client_id=695025002512384000&permissions=268511248&scope=bot
 
 ***Note The person adding the bot needs “Manage Server” permissions to do so.***
-
-
-## Requirements
-- Discord server and Admin permissions
-- `Node.js` on valid machine with (Windows/Linux/MacOS) installed
 
 ## Installation
 In a command/terminal prompt (from an empty folder) run the following:
