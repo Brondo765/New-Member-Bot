@@ -20,6 +20,7 @@ In a command/terminal prompt (from an empty folder) run the following:
 Once finished:
 
 - In the folder from where you ran the git command, run npm i
+- Keep your command/terminal prompt open and locate the config-example.json file
 - Rename config-example.json to config.json
 - Edit config.json and enter your token and other details as indicated.
 
