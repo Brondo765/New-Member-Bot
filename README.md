@@ -31,7 +31,7 @@ Once finished:
 - Rename `config-example.json` to `config.json`
 
 # Step 3:
-## Developer Enable
+## Enable Developer Mode
 Setting up the configuration file is an important step for the bot 
 to run online with your specific server/channels/roles.
 
@@ -41,13 +41,15 @@ Go to *Settings -> Appearance -> Advanced -> Tick the Developer Mode option.*
 
 This allows you to copy your Server ID, Role IDs, and Channel IDs for the servers you manage.
 
-***-copy your Server ID: right-click on the server bubble -> select Copy ID.***
+Copy these to a notepad or within the config.json file you renamed.
 
-***-Copy your Channel ID: right-click on the channel -> select copy ID.***
+***Copy your Server ID: right-click on the server bubble -> select Copy ID.***
 
-***-Copy your Role ID: right-click the server -> Server Settings -> Roles -> right-click on the role -> select Copy ID.***
+***Copy your Channel ID: right-click on the channel -> select copy ID.***
 
+***Copy your Role ID: right-click the server -> Server Settings -> Roles -> right-click on the role -> select Copy ID.***
 
+# Step 4:
 ## Get your Token
 In order to get the bot online, you need to create your own application under your
 Discord account and retrieve your token and specific server settings.
@@ -57,9 +59,10 @@ Head over to https://discordapp.com/developers.
 - Go to *Applications* tab if it is not open already
 - *New Application* and name your bot something similar to mine
 - Now head to *Bot -> Token -> Click to Reveal Token*
-- Copy and paste this token into 
+- Copy and paste this token into the config.json file marked "yourClientToken"
 
+# Step 5:
 ## Start-up
-To start the bot:
-- Make sure you have ran `Node` from your command/terminal prompt 
-- Once in `Node` type `node bot.js` and a console message should appear
+To start the bot: 
+- Open the command prompt/terminal to the location your folder is located
+- Type `node bot.js` and a console message should appear stating the bot is online and connected
