@@ -1,0 +1,12 @@
+{
+  "name": "member-bot",
+  "version": "1.0.4",
+  "description": "Add members to specificed role in Server",
+  "main": "bot.js",
+  "scripts": {},
+  "author": "Brandon Wegner",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.1.1"
+  }
+}
