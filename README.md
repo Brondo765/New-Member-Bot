@@ -13,9 +13,9 @@ https://discordapp.com/api/oauth2/authorize?client_id=695025002512384000&permiss
 ***Note The person adding the bot needs “Manage Server” permissions to do so.***
 
 ## Developer Enable
-To enable developer mode for your Discord account go to Settings -> Appearance -> Advanced.
+To enable developer mode for your Discord account go to
 
-*Tick the Developer Mode option.*
+*Settings -> Appearance -> Advanced -> Tick the Developer Mode option.*
 
 This allows you to copy your Server ID, Role IDs, and Channel IDs for the servers you manage.
 
