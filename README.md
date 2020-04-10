@@ -1,18 +1,18 @@
-# New-member-bot
+# New-member-bot:
 Discord bot which adds a new member to a specified role within the server.
 
-## Requirements
+## Requirements:
 - Discord server and Admin permissions
 - `Node.js` on valid machine with (Windows/Linux/MacOS) installed
 
-## Warning
+## Warning:
 This bot requires a machine connected to the internet in order to fulfill its
 duties.
 
 It will NOT appear online immeditately when added to a server!
 
 # Step 1:
-## Add Bot to Server
+## Add Bot to Server:
 
 Click this link to add New-member-bot to your server:
 https://discordapp.com/api/oauth2/authorize?client_id=695025002512384000&permissions=268511248&scope=bot
@@ -20,7 +20,7 @@ https://discordapp.com/api/oauth2/authorize?client_id=695025002512384000&permiss
 ***Note: The person adding the bot needs “Manage Server” permissions to do so.***
 
 # Step 2:
-## Installation
+## Installation:
 In a command/terminal prompt (from an empty folder where you want your installation) run the following:
 
 `git clone` https://github.com/Brondo765/New-member-bot/
@@ -31,7 +31,7 @@ Once finished:
 - Rename `config-example.json` to `config.json`
 
 # Step 3:
-## Enable Developer Mode
+## Enable Developer Mode:
 Setting up the configuration file is an important step for the bot 
 to run online with your specific server/channels/roles.
 
@@ -50,7 +50,7 @@ Copy these to a notepad or within the config.json file you renamed.
 ***Copy your Role ID: right-click the server -> Server Settings -> Roles -> right-click on the role -> select Copy ID.***
 
 # Step 4:
-## Get your Token
+## Get your Token:
 In order to get the bot online, you need to create your own application under your
 Discord account and retrieve your token and specific server settings.
 
@@ -62,7 +62,7 @@ Head over to https://discordapp.com/developers.
 - Copy and paste this token into the config.json file marked "yourClientToken"
 
 # Step 5:
-## Start-up
+## Start-up:
 To start the bot: 
 - Open the command prompt/terminal to the location your folder is located
 - Type `node bot.js` and a console message should appear stating the bot is online and connected
