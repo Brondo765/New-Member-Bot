@@ -19,7 +19,7 @@ In a command/terminal prompt (from an empty folder) run the following:
 
 Once finished:
 
-- In the folder from where you ran the git command, run cd New-member-bot and then run npm i
+- In the folder from where you ran the git command, type `Node` and run npm i
 - Rename config-example.json to config.json
 - Edit config.json and enter your token and other details as indicated.
 
