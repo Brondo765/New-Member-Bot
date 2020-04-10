@@ -40,7 +40,11 @@ Go to *Settings -> Appearance -> Advanced -> Tick the Developer Mode option.*
 
 This allows you to copy your Server ID, Role IDs, and Channel IDs for the servers you manage.
 
-***To copy your server ID right-click on the server bubble and click *Copy Id*.***
+***To copy your Server ID right-click on the server bubble -> select Copy ID.***
+
+***To copy your Channel ID right-click on the channel -> select copy ID.***
+
+***To copy your Role ID right-click the server -> Server Settings -> Roles -> right-click on the role -> select Copy ID.***
 
 
 ## Get your Token
