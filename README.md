@@ -1,7 +1,9 @@
 # New-member-bot
 Discord bot which adds a new member to a specified role within the server.
 
-***Note: This bot requires a hosting machine in order to fulfill its
+***Note:***
+
+***This bot requires a hosting machine in order to fulfill its
 duties.It will NOT appear online until you follow the steps I provide below.***
 
 ## Requirements
