@@ -3,7 +3,9 @@ Discord bot which adds a new member to a specified role within the server.
 
 ***Note The person adding the bot needs “Manage Server” permissions to do so.***
 
-To invite this bot to your server click this link: https://discordapp.com/api/oauth2/authorize?client_id=695025002512384000&permissions=268511248&scope=bot or follow below for install requirements and set-up.
+To invite this bot to your server click this link:
+https://discordapp.com/api/oauth2/authorize?client_id=695025002512384000&permissions=268511248&scope=bot
+or follow below for install requirements and set-up.
 
 ## Requirements
 - Discord server and Admin permissions
