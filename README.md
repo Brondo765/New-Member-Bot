@@ -29,6 +29,8 @@ Once finished:
 
 - Locate the `config-example.json` file
 - Rename `config-example.json` to `config.json`
+- Change the *rules* section to whatever server restrictions you want
+- Save the `config.json` and continue to step 2
 
 # Step 2:
 ## Enable Developer Mode:
@@ -41,11 +43,11 @@ To enable developer mode for your Discord account on the Discord app:
 
 This allows you to copy your Server ID, Role IDs, and Channel IDs for the servers you manage.
 
-(**Copy your Server ID: right-click on the server bubble -> select Copy ID.**)
+(**Copy your Server ID: right-click on the server bubble -> select Copy ID**)
 
-(**Copy your Channel ID: right-click on the channel -> select copy ID.**)
+(**Copy your Channel ID: right-click on the channel -> select copy ID**)
 
-(**Copy your Role ID: right-click the server -> Server Settings -> Roles -> right-click on the role -> select Copy ID.**)
+(**Copy your Role ID: right-click the server -> Server Settings -> Roles -> right-click on the role -> select Copy ID**)
 
 Add this to the config.json file that match the value names.
 
