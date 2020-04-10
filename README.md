@@ -1,7 +1,7 @@
 # New-member-bot
 Discord bot which adds a new member to a specified role within the server.
 
-***Note: This bot requires a hosting machine in order to fulfill its
+***Note: This bot requires a machine connected to the internet in order to fulfill its
 duties.***
 
 ***It will NOT appear online immeditately when added to a server!***
@@ -10,13 +10,15 @@ duties.***
 - Discord server and Admin permissions
 - `Node.js` on valid machine with (Windows/Linux/MacOS) installed
 
-## Add to Server
+# Step 1:
+## Add Bot to Server
 
 Click this link to add New-member-bot to your server:
 https://discordapp.com/api/oauth2/authorize?client_id=695025002512384000&permissions=268511248&scope=bot
 
 ***Note: The person adding the bot needs “Manage Server” permissions to do so.***
 
+# Step 2:
 ## Installation
 In a command/terminal prompt (from an empty folder where you want your installation) run the following:
 
@@ -27,15 +29,19 @@ Once finished:
 - Locate the `config-example.json` file
 - Rename `config-example.json` to `config.json`
 
+# Step 3:
 ## Developer Enable
 Setting up the configuration file is an important step for the bot 
 to run online with your specific server/channels/roles.
 
-To enable developer mode for your Discord account go to
+To enable developer mode for your Discord account on the Discord app:
 
-*Settings -> Appearance -> Advanced -> Tick the Developer Mode option.*
+Go to *Settings -> Appearance -> Advanced -> Tick the Developer Mode option.*
 
 This allows you to copy your Server ID, Role IDs, and Channel IDs for the servers you manage.
+
+***To copy your server ID right-click on the server bubble and click *Copy Id*.***
+
 
 ## Get your Token
 In order to get the bot online, you need to create your own application under your
