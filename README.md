@@ -15,7 +15,7 @@ https://discordapp.com/api/oauth2/authorize?client_id=695025002512384000&permiss
 ## Developer Enable
 To enable developer mode for your Discord account go to Settings -> Appearance -> Advanced.
 
-* Tick the Developer Mode option. *
+_ _ Tick the Developer Mode option. 
 
 This allows you to copy your Server ID, Role IDs, and Channel IDs for the servers you manage.
 
