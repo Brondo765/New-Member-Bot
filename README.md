@@ -5,6 +5,7 @@ And sends a message to the user who joins with rules the creator of the bot dict
 ## Requirements:
 - Discord server and Admin permissions
 - `Node.js` and `git` on valid machine with (Windows/Linux/MacOS) installed
+- Notepad or something similar to write in file contents
 
 ## NOTICE:
 This is a guide on how to make a New-member-bot and will require a machine connected to the internet in order to fulfill its
