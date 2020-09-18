@@ -37,6 +37,7 @@ Creating your bot is simple, head over to https://discordapp.com/developers.
 - Click *New Application* and name your application whatever you want
 - Once named, you should see several tabs on the left, click on *Bot* and add its username
 - Then, click -> *OAuth2 tab -> Under Scopes section checkmark bot -> Scroll down to see Bot Permissions section -> Select Administrator if you don't care about permissions for the bot*
+
 ***(Or if you are conservative with permissions checkmark -> Manage Server, Manage Roles, Manage Channels, Send Messages, Manage Messages, and Read Message History)***
 
 ## Adding the Bot to your Server:
