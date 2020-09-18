@@ -1,5 +1,4 @@
 # New-member-bot:
-<<<<<<< HEAD
 Discord bot which adds a new member to a specified role within the server.
 
 ## Requirements:
