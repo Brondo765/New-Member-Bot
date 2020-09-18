@@ -15,13 +15,10 @@ let fullDate = year + '-' + month + '-' + date + ' ' + hours + ':' + mins + ':' 
 
 // Output to console checking if bot connected to Discord server correctly
 bot.on("ready", () => {
-<<<<<<< HEAD
   console.log(`Bot online and connected to Discord server.\n` + fullDate);
   // Sets semi-custom activity status
-=======
   console.log(`Bot online and connected to Discord server.`)
   // Sets semi-custom activity status if you want to have no status for your bot delete line below
->>>>>>> 4a7d3c4ab240c418055c71707a20bd33e4b4bc37
   bot.user.setActivity("for new users to join", {type : "WATCHING"}); 
 });
 
