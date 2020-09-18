@@ -15,8 +15,13 @@ let fullDate = year + '-' + month + '-' + date + ' ' + hours + ':' + mins + ':' 
 
 // Output to console checking if bot connected to Discord server correctly
 bot.on("ready", () => {
+<<<<<<< HEAD
   console.log(`Bot online and connected to Discord server.\n` + fullDate);
   // Sets semi-custom activity status
+=======
+  console.log(`Bot online and connected to Discord server.`)
+  // Sets semi-custom activity status if you want to have no status for your bot delete line below
+>>>>>>> 4a7d3c4ab240c418055c71707a20bd33e4b4bc37
   bot.user.setActivity("for new users to join", {type : "WATCHING"}); 
 });
 
@@ -25,9 +30,9 @@ bot.on("guildMemberAdd", member => {
     console.log(member.user.username + " has joined the server! ");
     // Adds member to designated role according to roleID provided in config.json file
     member.roles.add(config.roleID); 
-    // Genertates the name of the server according to serverID provided in config.json file
+    // Generates the name of the server according to serverID provided in config.json file
     var serverName = bot.guilds.cache.get(config.serverID); 
-    // Genertates the name of the channel according to channelID provided in config.json file
+    // Generates the name of the channel according to channelID provided in config.json file
     var channel = bot.channels.cache.get(config.channelID)
 
     // Sends custom message mentioning the user and adds rules provided in config.json file
