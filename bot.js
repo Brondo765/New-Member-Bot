@@ -1,12 +1,21 @@
 // Product is of version 12.1.1 from the Discord API
+// qckwinsvs allows bot.js to be run as a Windows Service
 
 const config = require("./config.json");
 const Discord = require("discord.js"); 
 const bot = new Discord.Client();
+let date_obj = new Date();
+let date = ('0' + date_obj.getDate()).slice(-2);
+let month = ('0' + (date_obj.getMonth() + 1)).slice(-2);
+let year = date_obj.getFullYear();
+let hours = date_obj.getHours();
+let mins = date_obj.getMinutes();
+let seconds = date_obj.getSeconds();
+let fullDate = year + '-' + month + '-' + date + ' ' + hours + ':' + mins + ':' + seconds;
 
 // Output to console checking if bot connected to Discord server correctly
 bot.on("ready", () => {
-  console.log(`Bot online and connected to Discord server.`)
+  console.log(`Bot online and connected to Discord server.\n` + fullDate);
   // Sets semi-custom activity status
   bot.user.setActivity("for new users to join", {type : "WATCHING"}); 
 });
