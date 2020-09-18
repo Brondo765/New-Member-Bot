@@ -1,12 +1,15 @@
 # New-member-bot:
-Discord bot which adds a new member to a specified role within the server.
+Discord bot template which adds a new member to a specified role within the server. 
+And sends a message to the user who joins with rules the creator of the bot dictates.
 
 ## Requirements:
 - Discord server and Admin permissions
 - `Node.js` and `git` on valid machine with (Windows/Linux/MacOS) installed
+- Notepad or something similar to write in file contents
 
 ## NOTICE:
-This is a guide on how to make a New-member-bot and will require a machine connected to the internet in order to fulfill its duties 24/7.
+This is a guide on how to make a New-member-bot and will require a machine connected to the internet in order to fulfill its
+duties 24/7.
 
 It will NOT appear online immeditately when you add your bot to the server! Please follow the steps below exactly as I have laid out.
 
@@ -18,16 +21,17 @@ Run the following:
 
 `git clone` https://github.com/Brondo765/New-member-bot.git
 
-Let the files download to the specified folder and one a new line enter:
+Let the files download to the specified folder and on a new line enter:
 
-npm discord.js
+`npm discord.js` 
 
 This will install the modules needed for the Discord API to work.
 
 Once finished:
+
 - Locate the `config-example.json` file in your folder
-- Change the *rules* section to whatever you want new users to see
-- Save as `config.json` and delete the `config-example.json` file.
+- Change the *rules* section to whatever server restrictions you want new users to see
+- Save as `config.json` and delete the example file
 
 # Step 2:
 ## Creating a Bot:
@@ -48,12 +52,9 @@ Creating your bot is simple, head over to https://discordapp.com/developers.
 
 # Step 3:
 ## Enable Developer Mode on your Discord Account:
-Setting up the configuration file is an important step for the bot 
-to run online with your specific server/channels/roles.
+To enable developer mode for your Discord account go to your Discord app in the bottom left: 
 
-To enable developer mode for your Discord account on the Discord app:
-
-*Settings -> Appearance -> Advanced -> Tick the Developer Mode option.*
+*Settings -> Appearance -> Advanced -> Scroll down and tick the Developer Mode option on.*
 
 This allows you to copy your Server ID, Role IDs, and Channel IDs for the servers you manage.
 
