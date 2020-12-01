@@ -19,7 +19,7 @@ Open a command/terminal prompt and make sure your path leads to an empty folder 
 
 Run the following:
 
-`git clone` https://github.com/Brondo765/New-member-bot.git
+`git clone` https://github.com/Brondo765/New-member-bot
 
 Let the files download to the specified folder and on a new line enter:
 
